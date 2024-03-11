@@ -70,12 +70,10 @@ export const Slider = ({ slides }) => {
   };
 
   useEffect(() => {
-    console.log('load');
     onLoad();
   }, []);
 
   useEffect(() => {
-    console.log('update');
     updateTheme(slides[state.slideIndex].image);
   }, [state.slideIndex]);
 
