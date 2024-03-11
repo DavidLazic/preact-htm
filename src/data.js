@@ -4,33 +4,33 @@ export const SLIDES = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     link: '#',
-    image: '/assets/1.jpg',
+    image: 'https://davidlazic.github.io/preact-htm/assets/1.jpg',
   },
   {
     title: 'Title 2',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: '#',
-    image: '/assets/2.jpg',
+    image: 'https://davidlazic.github.io/preact-htm/assets/2.jpg',
   },
   {
     title: 'Title 3',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     link: '#',
-    image: '/assets/3.jpg',
+    image: 'https://davidlazic.github.io/preact-htm/assets/3.jpg',
   },
   {
     title: 'Title 4',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     link: '#',
-    image: '/assets/4.jpg',
+    image: 'https://davidlazic.github.io/preact-htm/assets/4.jpg',
   },
   {
     title: 'Title 5',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     link: '#',
-    image: '/assets/5.jpg',
+    image: 'https://davidlazic.github.io/preact-htm/assets/5.jpg',
   },
 ];
