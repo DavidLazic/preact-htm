@@ -37,6 +37,12 @@ export const useImageTheme = () => {
   const save = async () =>
     localStorage.setItem(THEME_CACHE_KEY, JSON.stringify(state.cache));
 
+  /**
+   * @description
+   * Saves themes into internal cache after they've been loaded.
+   *
+   * @returns {Promise<void>}
+   */
   const queue = () => {
     return new Promise(async (resolve) => {
       const themes = await Promise.all(state.queue);
