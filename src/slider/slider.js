@@ -10,7 +10,7 @@ export const Slider = ({ slides }) => {
   const carouselRef = useRef(null);
   const [isTabActive, setIsTabActive] = useState(false);
   const [tabElement, setTabElement] = useState('');
-  const { set: setTheme } = useImageTheme();
+  const { set: setTheme, update: updateTheme } = useImageTheme();
   const [state, setState] = useState({
     scrollWidth: 0,
     clientWidth: 0,
@@ -70,11 +70,13 @@ export const Slider = ({ slides }) => {
   };
 
   useEffect(() => {
+    console.log('load');
     onLoad();
   }, []);
 
   useEffect(() => {
-    setTheme(slides[state.slideIndex].image);
+    console.log('update');
+    updateTheme(slides[state.slideIndex].image);
   }, [state.slideIndex]);
 
   const useSlider = {
